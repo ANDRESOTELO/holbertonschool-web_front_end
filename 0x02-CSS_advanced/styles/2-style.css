@@ -5,18 +5,12 @@ html {
 }
 
 body {
-  color: var(--color-body-anchor);
-}
-
-/*----set CSS variables---*/
-:root {
-  --color-body-anchor: #161616;
-  --color-card-tagline: #D73953;
+  color: #161616;
 }
 
 /*---------ELEMENTS STYLES----------*/
 a {
-  color: var(--color-body-anchor);
+  color: #161616;
 }
 
 .visually-hidden {
@@ -24,9 +18,9 @@ a {
 }
 
 .card-category {
-  color: var(--color-card-tagline);
+  color: #D73953;
 }
 
 .section-tagline {
-  color: var(--color-card-tagline);
+  color: #D73953;
 }
