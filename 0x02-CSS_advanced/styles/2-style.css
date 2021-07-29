@@ -1,0 +1,32 @@
+/*--------GENERAL STYLES---------*/
+/*-----Change behavior of scroll. More fluid -----*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-body-anchor);
+}
+
+/*----set CSS variables---*/
+:root {
+  --color-body-anchor: #161616;
+  --color-card-tagline: #D73953;
+}
+
+/*---------ELEMENTS STYLES----------*/
+a {
+  color: var(--color-body-anchor);
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category {
+  color: var(--color-card-tagline);
+}
+
+.section-tagline {
+  color: var(--color-card-tagline);
+}
