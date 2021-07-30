@@ -2,7 +2,7 @@
 /*-----Change behavior of scroll. More fluid -----*/
 html {
   scroll-behavior: smooth;
-  font-size: calc(0.625rem);
+  font-size: 0.625rem;
 }
 
 body {
