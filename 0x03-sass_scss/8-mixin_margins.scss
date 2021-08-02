@@ -1,0 +1,13 @@
+/*--Mixin don´t forget @mixin and then @include--*/
+@mixin margins($margins: 10px) {
+    margin-left: $margins;
+    margin-right: $margins;
+}
+
+body {
+    @include margins;
+}
+
+div {
+    @include margins($margins: 15px);
+}
