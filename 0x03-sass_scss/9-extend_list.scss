@@ -1,18 +1,14 @@
 /*--Extend and inheritance--*/
-%font-size-info {
+.info {
     font-size: 12px;
 }
 
-.info {
-    @extend %font-size-info;
-}
-
 .success {
-    @extend %font-size-info;
+    @extend .info;
     color: #00FF00;
 }
 
 .warning {
-    @extend %font-size-info;
+    @extend .info;
     color: #FF0000;
 }
