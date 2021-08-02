@@ -1,0 +1,19 @@
+/*--Extend and inheritance--*/
+/*--Declare with % character and use with @extend declaration--*/
+%font-size-info {
+    font-size: 12px;
+}
+
+.info {
+    @extend %font-size-info;
+}
+
+.success {
+    @extend %font-size-info;
+    color: #00FF00;
+}
+
+.warning {
+    @extend %font-size-info;
+    color: #FF0000;
+}
