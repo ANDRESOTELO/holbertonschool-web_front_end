@@ -1,6 +1,4 @@
 /*for loop using rule to create styles--*/
-$font-size: 1px;
-
 @for $i from 1 through 5 {
     h#{$i} {
         font-size: #{$i}px;
