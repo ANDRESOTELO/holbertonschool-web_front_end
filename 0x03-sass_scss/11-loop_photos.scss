@@ -1,4 +1,4 @@
-/*--@each rule in Sass--*/
+/*-- @each rule in Sass --*/
 @import '11-photos';
 
 @each $name in $list-names {
